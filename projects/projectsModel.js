@@ -20,8 +20,10 @@ function findById(id) {
 
 function insert(project) {
     return db('projects')
-    .insert(project, "id")
-    .then(([id]) => find().where({id}));
+    .insert(project)
+    .then(ids => {
+        return project
+    })
 }
 
 function update(id, changes) {

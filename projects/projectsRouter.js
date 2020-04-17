@@ -32,14 +32,14 @@ router.post('/', (req, res) => {
     if (project.name && project.description) {
         Projects.insert(req.body)
         .then(project => {
-            req.project = project
-            console.log(project)
+            // req.project = project
+            res.json(project)
+            })
+        .catch(err => {
+                res.status(500).json({message: "failed"})
             })
     } else {
         res.status(404).json({message:"please enter name and description"})
-    .catch(err => {
-        res.status(500).json({message: "failed"})
-    })
 };
 
 })
