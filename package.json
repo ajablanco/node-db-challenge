@@ -1,0 +1,29 @@
+{
+  "name": "db-challenge",
+  "version": "1.0.0",
+  "description": "db challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajablanco/node-db-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajablanco/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/ajablanco/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "knex": "^0.20.15",
+    "node": "^13.13.0",
+    "pg": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
