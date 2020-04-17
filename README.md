@@ -40,11 +40,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+
+In a relational database the tables will have an identifier called primary key. Data values will be stored in the form of tables. The relationships between these data values will be stored in the form of a table as well. 
+
+Whereas, SQL is a domain-specific language used in programming and designed for managing data held IN a relational database management system
+
 - [ ] Why do tables need a `primary key`?
+
+Each database table needs a primary key because it ensures row-level accessibility. ... The values that compose a primary key column are unique; no two values are the same. Each table has one and only one primary key, which can consist of one or many columns.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign key!!
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+A relational table that points a primary key of one table to a foregin key of another.
+
 
 ## Minimum Viable Product
 
